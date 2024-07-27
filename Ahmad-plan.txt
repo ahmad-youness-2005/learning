@@ -1,0 +1,9 @@
+
+- Design Patterns
+    - Singelton
+    - Factory (Abstract Factory)
+    - Builder
+    - Observer
+    - Strategy
+    - Command
+
