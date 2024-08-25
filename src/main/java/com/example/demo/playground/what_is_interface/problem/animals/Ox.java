@@ -1,6 +1,6 @@
-package com.example.demo.playground.what_is_interface.animals;
+package com.example.demo.playground.what_is_interface.problem.animals;
 
-import com.example.demo.playground.what_is_interface.Terrestrial;
+import com.example.demo.playground.what_is_interface.problem.Terrestrial;
 
 public class Ox extends Terrestrial {
     @Override

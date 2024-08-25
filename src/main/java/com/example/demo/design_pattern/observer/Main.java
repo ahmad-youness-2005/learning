@@ -7,10 +7,18 @@ public class Main {
 
         Receiver1 receiver1 = new Receiver1();
         Receiver2 receiver2 = new Receiver2();
-        Receiver3 receiver3 = new Receiver3();
+        SilentReceiver silentReceiver = new SilentReceiver();
 
         newsPublisher.subscribe(receiver1);
         newsPublisher.subscribe(receiver2);
+        newsPublisher.subscribe(silentReceiver);
+
+        newsPublisher.subscribe(new NewsObserver() {
+            @Override
+            public void update(String news) {
+                System.out.println("Unknown receiver: " + news);
+            }
+        });
 
         newsPublisher.publish("Article 1");
         newsPublisher.publish("Article 2");
@@ -18,6 +26,8 @@ public class Main {
         newsPublisher.publish("Article 4");
         newsPublisher.publish("Article 5");
         newsPublisher.publish("Article 6");
+
+        silentReceiver.printAllReceivedMessages();
     }
 
 }

@@ -1,6 +1,6 @@
-package com.example.demo.playground.what_is_interface.animals;
+package com.example.demo.playground.what_is_interface.problem.animals;
 
-import com.example.demo.playground.what_is_interface.Bird;
+import com.example.demo.playground.what_is_interface.problem.Bird;
 
 public class Hassoun extends Bird {
 

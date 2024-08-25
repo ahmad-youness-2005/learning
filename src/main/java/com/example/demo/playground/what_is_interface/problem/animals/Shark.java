@@ -1,6 +1,6 @@
-package com.example.demo.playground.what_is_interface.animals;
+package com.example.demo.playground.what_is_interface.problem.animals;
 
-import com.example.demo.playground.what_is_interface.Fish;
+import com.example.demo.playground.what_is_interface.problem.Fish;
 
 public class Shark extends Fish {
     @Override

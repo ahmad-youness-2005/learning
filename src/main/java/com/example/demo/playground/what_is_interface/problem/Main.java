@@ -1,6 +1,6 @@
-package com.example.demo.playground.what_is_interface;
+package com.example.demo.playground.what_is_interface.problem;
 
-import com.example.demo.playground.what_is_interface.animals.*;
+import com.example.demo.playground.what_is_interface.problem.animals.*;
 
 import java.util.ArrayList;
 
